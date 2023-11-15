@@ -1,0 +1,32 @@
+{
+  "name": "hustlers_planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "front": "cd hustlersplanner && npm start",
+    "back": "nodemon server.js",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "Ahmed Ben Abid",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.6.0",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.0",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "proxy": "^2.1.1",
+    "react-router-dom": "^6.17.0",
+    "redux-thunk": "^2.4.2"
+  }
+}
